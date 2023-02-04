@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    }
+footer
+{
+    background-color: bisque;
+}
+h3{
+    margin:10px 30px;
+}
+.contact-content
+{
+    margin:20px;
+}
+.contact-content i
+{
+    padding:10px;
+    color: black;
+}
+.social-media
+{
+        margin:20px;   
+}
+.social-media a
+{
+  color:black;
+  padding:10px;
+}
+/* product cards */
+.row
+{
+    margin: 25px;
+}
+.product
+{
+ background-image: linear-gradient(120deg,black,bisque);
+}
+.product h2
+{
+    color:bisque;
+    font-weight: bolder;
+    text-align: center;
+    margin:0px 50px;
+}
+.product .card
+{
+    box-shadow:10px;
+    height: 450px;
+}
+.product .card .service-img
+{
+    overflow: hidden;
+    margin: 20px;
+    height: 320px;
+    
+}
+.product .row .card a 
+{
+    color:black;
+    text-align: center;
+
+}

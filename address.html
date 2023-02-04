@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoestopper</title>
+    <!-- comment shortcut in windows is ctrl+k+c-->
+    
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">   
+    <link rel="shortcut icon" href="Image/coldbenexttoo.jpg" type="image/x-icon">
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" 
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- style -->
+<link rel="stylesheet" href="style1.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
+integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!--nav bar-->
+  <nav class="navbar navbar-expand-lg navbar-light nav-fixed" style="background-color:bisque;">
+        <div class="container-fluid">        
+            <a class="navbar-brand" href="home.html"> <img src=".//boots-walking-logo-icon-design-vector-8142559.jpg" width="30px"></a>
+            <a class="navbar-brand" href="home.html">Shoestopper</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Home</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login/Register</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- address form -->
+      <h3 style="text-decoration: underline;">Proceed by filling out the address...</h3>
+      <form name="address-form" class="row g-3" method="post">
+        <div class="col-12">
+            <label for="inputname"  class="form-label">Name</label>
+            <input type="text" name="Name" class="form-control" id="inputname" placeholder="" required>
+          </div>
+        <div class="col-md-4">
+          <label for="inputEmail4"  class="form-label">Email ID</label>
+          <input type="email" name="Email ID" class="form-control" id="inputEmail4" required>
+        </div>
+         <div class="col-md-4">
+          <label for="inputNumber"  class="form-label">Phone Number</label>
+          <input type="number" name="Phone Number" class="form-control" id="inputNumber" required>
+        </div>
+        <div class="col-12">
+          <label for="inputAddress"  class="form-label">Address</label>
+          <input type="text" name="Address" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" name="Address2" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" required>
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity"  class="form-label">City</label>
+          <input type="text" name="City" class="form-control" id="inputCity" required>
+        </div>
+        <div class="col-md-4">
+          <label for="inputState"  class="form-label">State</label>
+          <select id="inputState"  name="State" class="form-select" required>
+            <option selected>Choose...</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chattisgarh">Chattisgarh</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>  
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+        </select>
+        </div>
+        <div class="col-md-2">
+          
+          <label for="inputZip"  class="form-label">Pincode</label>
+          <input type="number" name="Pincode" class="form-control" id="inputZip" required>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+            <label class="form-check-label" for="gridCheck">
+            Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="button" class="btn btn-primary"><a href="billing.html" style="color: bisque; font-weight: 500;">Order at this Address</a></button>
+          <button type="reset" class="btn btn-primary">Reset</button>
+        </div>
+      </form>
+<!-- footer -->
+<footer>
+  <section>
+    <h3>Contact Us</h3>
+      <div class="contact-content d-flex">
+      <a href="bhaumik.alip03@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      <a href="tel:9903971844"><i class="fa-solid fa-phone"></i></a>
+  
+      <!-- whatsapp link -->
+       <a href="https://wa.me/+9199039719844"><i class="fa-brands fa-whatsapp"></i></a>
+      
+      <!-- adding documents -->
+      <a href="Image/abc.pdf"><i class="fa-solid fa-file"></i></a>
+      </div>
+     <!-- social media links -->
+     <div class="social-media">
+      <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a> 
+    </div>
+     <hr>
+     <div class="copyright">
+     &copy;Copyright 2022,Unrequited Fashion Pvt Ltd. All rights reserved.
+     </div>
+    </section>
+</footer>
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" 
+integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- bootstrap java script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+crossorigin="anonymous"></script>
+<!-- owl carousel JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" 
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- google form -->
+<script>
+  const scriptURL =
+      'https://script.google.com/macros/s/AKfycbwhXhRFePwmQ3Zba8WpMyN-Pe2oIjHDyfvZXtDVNWvarHxtnSQlyg8Jx3jx-gVp_Jw/exec'
+  const form = document.forms['address-form']
+
+  form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, {
+              method: 'POST',
+              body: new FormData(form)
+          })
+          .then(response => alert(
+              "Address to delivered!!"))
+          .catch(error => console.error('Error!', error.message))
+  })
+
+</script>
+</body>
+</html>

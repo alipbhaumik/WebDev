@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    }
+.row 
+{
+    margin: 50px;
+}
+footer
+{
+    background-color: bisque;
+}
+h3{
+    margin:10px 30px;
+}
+.contact-content
+{
+    margin:20px;
+}
+.contact-content i
+{
+    padding:10px;
+    color: black;
+}
+.social-media
+{
+        margin:20px;   
+}
+.social-media a
+{
+  color:black;
+  padding:10px;
+}
+/* login page */
+.service-section1
+{
+    text-align:center;
+    background-image:linear-gradient(60deg,bisque,antiquewhite)
+}
+.signup-section2
+{
+    align-items: center;
+    width: 50%;
+    box-shadow:5px;
+    margin: 50px;
+}
+/* home page styling */
+.productcategories
+{
+    background-image: linear-gradient(120deg,black,bisque);
+}
+.productcategories .card
+{
+  box-shadow: 10px;
+  height: 500px;
+}
+.productcategories  .card .service-img
+{
+    overflow:hidden;
+    height: 320px;
+    margin: 20px;
+}
+.row
+{
+    margin: 20px;
+    padding: 10px;
+}
+.productcategories .card .service-content
+{
+   margin:0px 20px;
+}
+/* about us page */
+.about
+{
+    background-image:linear-gradient(90deg,black,bisque);
+
+}
+.about .content p
+{
+    color: aliceblue; 
+    margin:0px 50px;
+    text-align: center;
+}
+.about .image
+{
+    height: 500px;
+    width: 500px;
+    margin:0px 500px;
+}
+.about .image img
+{  
+    box-shadow: 5px bisque;
+    text-align: center;
+    overflow:hidden;
+    width: 100%;
+    height:100%;   
+}
